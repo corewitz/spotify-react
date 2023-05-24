@@ -1,8 +1,11 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+//import Home from '/Users/jamesjacobson/Desktop/spotify-react/src/screens/home/Home.js';
 import reportWebVitals from './reportWebVitals';
+//import Home from '/Users/jamesjacobson/Desktop/spotify-react/src/components/screens/home/Home.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

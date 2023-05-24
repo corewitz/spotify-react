@@ -1,9 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react"; //{ useState, useEffect }
 import './App.css';
-import Login from "../src/components/Login"
+import Home from './screens/home/Home.js'
+//import Login from "../src/components/Login";
 
 function App() {
 
+  return (
+  <div>
+  <Home />
+  </div>
+  )
+
+/*
   const [token, setToken] = useState("");
 
   useEffect (() => {
@@ -14,7 +22,7 @@ function App() {
     const _token = hash.split("&")[0].split("=")[1];
     window.localStorage.setItem("token", _token);
     setToken(_token);
-    } else {
+    } else { 
       setToken(token)
     }
   }, []);
@@ -26,7 +34,7 @@ function App() {
         SPOTIFYYYYYYYYYY
       </header>
     </div>
-  );
+  ); */
 }
 
 export default App;
