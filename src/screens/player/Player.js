@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function Player() {
   return (
-    <div>Player</div>
+    <div className="screen-container">Player</div>
   )
 }
