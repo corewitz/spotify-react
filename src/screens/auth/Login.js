@@ -1,12 +1,13 @@
 import React from "react";
-import { loginEndPoint } from "../../../spotify";
+import { loginEndPoint } from "../../spotify";
+import spotifyLogo from "../../desktop-wallpaper-spotify-neon-icon-spotify-logo.jpg";
 import "./login.css";
 
 export default function Login() {
     return (
       <div className="login-page">
       <img 
-        src=""
+        src={spotifyLogo}
         alt="logo-spotify"
         className="logo"
       />
@@ -18,4 +19,3 @@ export default function Login() {
 };
 
 
-//check video at 5 min 6 sec
