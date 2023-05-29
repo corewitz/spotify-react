@@ -1,0 +1,32 @@
+.library-body {
+    width: 94%;
+    height: 90%;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    border-radius: 1%;
+    margin: 1%;
+    justify-content: '';
+    background: rgb(3,228,201);
+background: linear-gradient(90deg, rgba(3,228,201,1) 0%, rgba(220,253,29,1) 51%, rgba(40,0,255,1) 100%);
+
+
+}
+
+.playlist-card {
+    width: 15%;
+    height: 35%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1%;
+    margin: 3%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,112,1) 100%);
+}
+
+.playlist-image {
+  width: 100%;
+  border-radius: 15px;
+}

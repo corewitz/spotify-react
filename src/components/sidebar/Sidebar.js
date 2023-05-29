@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';  //, { useState, useEffect }
+import React, {useState, useEffect} from 'react';  //, { useState, useEffect }
 import './sidebar.css';
 import catprofile from '../../catprofile.jpeg';
 import SidebarButton from './sidebarButton';
@@ -15,7 +15,8 @@ export default function Sidebar() {
   const [image, setImage] = useState(catprofile);
   useEffect(() => {
     apiClient.get("me").then((response) => {
-      setImage(response.data.images[0].url);
+     console.log(response.data.images[0].url)
+     setImage(response.data.images[0].url);
     })
   }, []); 
   return (

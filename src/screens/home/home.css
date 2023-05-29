@@ -1,7 +1,8 @@
 .main-body {
     height: 100vh;
     width: 100vw;
-    background-color: orange;
+    background: rgb(255,8,2);
+background: linear-gradient(189deg, rgba(255,8,2,1) 0%, rgba(1,4,255,1) 35%, rgba(255,0,114,1) 100%);
     border-radius: 30px;
     display: flex;
 }
